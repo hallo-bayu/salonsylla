@@ -263,7 +263,9 @@ dd { margin: 0; color: var(--color-text-soft); }
 }
 .navbar.is-scrolled .navbar__inner { padding-block: 12px; }
 
-.navbar__logo { display: flex; flex-direction: column; line-height: 1.1; }
+.navbar__logo { display: flex; align-items: center; gap: 10px; line-height: 1.1; }
+.navbar__logo-img { height: 40px; width: auto; display: block; }
+.navbar__logo-text { display: flex; flex-direction: column; line-height: 1.1; }
 .navbar__logo-mark {
   font-family: var(--font-display);
   font-size: 1.4rem;
@@ -749,7 +751,8 @@ dd { margin: 0; color: var(--color-text-soft); }
 }
 .offer__headline {
   font-family: var(--font-display);
-  font-size: clamp(3.4rem, 2.6rem + 4vw, 6rem);
+  font-style: italic;
+  font-size: clamp(2.3rem, 1.7rem + 3vw, 4.2rem);
   margin: 6px 0 18px;
   color: var(--color-text-inverse);
   position: relative;
@@ -916,6 +919,7 @@ dd { margin: 0; color: var(--color-text-soft); }
   margin-bottom: 16px;
   font-weight: 600;
 }
+.site-footer__brand { display: flex; align-items: center; gap: 10px; }
 .site-footer__brand .navbar__logo-mark { color: var(--color-text-inverse); }
 .site-footer__brand .navbar__logo-sub { color: var(--color-text-inverse-soft); }
 .site-footer__links ul, .site-footer__social ul { display: flex; flex-direction: column; gap: 10px; }
@@ -953,7 +957,7 @@ dd { margin: 0; color: var(--color-text-soft); }
 
 /* Small phones ≥375 */
 @media (min-width: 375px) {
-  .offer__headline { font-size: clamp(3.8rem, 3rem + 4vw, 6rem); }
+  .offer__headline { font-size: clamp(2.8rem, 2rem + 3vw, 4.6rem); }
 }
 
 /* Large phones / small tablets ≥600 */

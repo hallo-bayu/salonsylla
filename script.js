@@ -125,8 +125,8 @@
   var serviceTabs = document.querySelectorAll(".services__tab");
   var servicesImage = document.getElementById("servicesImage");
   var categoryImages = {
-    hair: "fotosalon1.png",
-    facebody: "fotosalon1.png",
+    hair: "fotosalon.png",
+    facebody: "fotosalon3.png",
     riasmakeup: "riaspengantin.png"
   };
 

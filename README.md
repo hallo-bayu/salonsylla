@@ -3,14 +3,12 @@
 Semua gambar dirujuk langsung dari root folder (satu folder sama `index.html`),
 jadi pastikan semua file di bawah ini ada di folder yang sama sebelum dibuka/di-deploy:
 
-- `fotosalon1.png` — dipakai sebagai background Hero & gambar default Services.
-  Kalau `fotosalon.png` (tanpa angka) ternyata angle-nya lebih luas/cerah,
-  cukup ganti `src="fotosalon1.png"` jadi `src="fotosalon.png"` di dua tempat:
-  section Hero dan `id="servicesImage"` di section Services.
+- `logo.png` — logo utama Sylla (siluet wanita berwarna rose). Dipakai di navbar, footer, dan favicon.
+- `fotosalon.png` & `fotosalon1.png` — dipakai bergantian sebagai background Hero (auto-slide tiap 4 detik). `fotosalon.png` juga jadi gambar default kategori "Hair Treatment" di Services.
 - `bgsection2.png` — dipakai sebagai background section About (motif bunga).
-- `riaspengantin.png` — dipakai sebagai gambar untuk tab "Rias & Makeup" di section Services.
-- `fotosalon2.png` s.d. `fotosalon7.png` — 6 foto galeri di section Gallery.
-- `icons/favicon.svg` — placeholder favicon (monogram Sylla). Ganti dengan logo asli kalau ada.
+- `fotosalon3.png` — gambar kategori "Face & Body" di Services.
+- `riaspengantin.png` — gambar kategori "Rias & Makeup" di Services.
+- `fotosalon.png` s.d. `fotosalon6.png` + `riaspengantin.png` — 8 foto galeri lengkap di section Gallery (semua foto dipakai).
 
 ## Catatan sebelum publish
 
